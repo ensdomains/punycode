@@ -11,6 +11,7 @@ contract Punycode is PunycodeInterface {
     uint32 constant public SKEW = 38;
     uint32 constant public T_MAX = 26;
     uint32 constant public T_MIN = 1;
+    byte constant public RUNE_SELF = 0x80;
 
     function encode(string str) external view returns (string) {
         return str;
@@ -23,7 +24,14 @@ contract Punycode is PunycodeInterface {
     function isASCII(string str) internal pure returns (bool) {
 
         // ensure all runes < 0x80
+        // @todo get runes
+        uint256 length = 0; // @todo rune length
+        for (uint i = 0; i < length; i++) {
+            if (runes[i] >= RUNE_SELF) {
+                return false;
+            }
+        }
 
-        return false;
+        return true;
     }
 }
