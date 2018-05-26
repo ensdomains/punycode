@@ -1,6 +1,6 @@
 # Punycode
 
-[![Build Status](https://travis-ci.com/ensdomains/Punycode.svg?branch=master)](https://travis-ci.com/ensdomains/Punycode) [![License](https://img.shields.io/badge/License-BSD--2--Clause-blue.svg)](LICENSE)
+[![Build Status](https://travis-ci.com/ensdomains/punycode.svg?branch=development)](https://travis-ci.com/ensdomains/punycode) [![License](https://img.shields.io/badge/License-BSD--2--Clause-blue.svg)](LICENSE)
 
 Solidity implementation of Punycode.
 
