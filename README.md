@@ -34,6 +34,7 @@ solium --dir ./contracts
 * [Truffle](https://github.com/trufflesuite/truffle) - Ethereum development environment 
 
 ## Authors
+Jennifer Crosier jekyll.yml 
 
 * **Dean Eigenmann** - [decanus](https://github.com/decanus)
 
